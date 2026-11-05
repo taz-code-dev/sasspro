@@ -3,9 +3,9 @@ import Container from '../components/Container'
 import Heading01 from '../components/Heading01'
 import Paragraph01 from '../components/Paragraph01'
 import Image from '../components/Image'
-import img01 from '../assets/Allproduct01.png'
-import img02 from '../assets/Allproduct02.png'
-import img03 from '../assets/Allproduct003.png'
+import img01 from '../assets/allproduct01.png'
+import img02 from '../assets/allproduct02.png'
+import img03 from '../assets/allproduct003.png'
 import Flex from '../components/Flex'
 
 const Allproduct = () => {
