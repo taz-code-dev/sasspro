@@ -1,15 +1,31 @@
 import React from 'react'
-import Listitem from './components/Listitem'
-import Button from './components/Button'
+import Navebar from './layouts/Navebar'
+import Bannerpart from './layouts/Bannerpart'
+import Bannerreatpart from './layouts/Bannerreatpart'
+import Focuspart from './layouts/Focuspart'
+import Allproduct from './layouts/Allproduct'
+import Engagepart from './layouts/Engagepart'
+import Workingpart from './layouts/Workingpart'
+import Pricingpart from './layouts/Pricingpart'
+import ClientaPart from './layouts/ClientaPart'
+import Updatepart from './layouts/Updatepart'
+
 
 
 
 const App = () => {
   return (
     <>
-    <nav>
-       <Button/>
-    </nav>
+       <Navebar/>
+       <Bannerpart/>
+       <Bannerreatpart/>
+       <Focuspart/>
+       <Allproduct/>
+       <Engagepart/>
+       <Workingpart/>
+       <Pricingpart/>
+       <ClientaPart/>
+       <Updatepart/>
     </>
   )
 }
