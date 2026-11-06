@@ -18,8 +18,8 @@ const Pricingpart = () => {
           <Heading01 text="Affordable Pricing" />
           <Flex classname="gap-x-6 justify-center items-center pt-9">
             <span>Monthly</span>
-            <div onClick={handelpricpart} className={`w-22.5 h-10 bg-secondary rounded-full p-1 cursor-pointer flex ${over? "justify-start": "justify-end"}`}>
-              <div className="w-7.5 bg-offwhite rounded-full"></div>
+            <div onClick={handelpricpart} className={`w-22.5 h-10 ${over? "bg-third": "bg-secondary"} rounded-full p-1 cursor-pointer flex ${over? "justify-start": "justify-end"}`}>
+              <div className="w-7.5 h-7.5 bg-offwhite rounded-full"></div>
             </div>
             <span className="text-secondary">Annualy</span>
           </Flex>
@@ -29,8 +29,8 @@ const Pricingpart = () => {
                 over ?
                 <Flex classname="flex gap-x-6 justify-center">
                     <Pricingcard btntext="Try for Free" priceh3="Free Plan" pricedolar="$0" pricetime="/ monthly"/>
-                    <Pricingcard btntext="Buy Now" priceh3="Premium Plan" pricedolar="$599" pricetime="/ year"/>
-                    <Pricingcard btntext="Buy Now" priceh3="Business Plan" pricedolar="$999" pricetime="/ year"/>
+                    <Pricingcard btntext="Buy Now" priceh3="Premium Plan" pricedolar="$199" pricetime="/ year"/>
+                    <Pricingcard btntext="Buy Now" priceh3="Business Plan" pricedolar="$399" pricetime="/ year"/>
                 </Flex>
                 :
                 <Flex classname="flex gap-x-6 justify-center">
