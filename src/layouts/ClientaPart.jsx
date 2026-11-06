@@ -13,7 +13,7 @@ const ClientaPart = () => {
   return (
     <section className="pt-30 pb-34 bg-[#F3F3F3]">
       <Container>
-        <Flex>
+        <Flex classname="items-center">
           <div className="w-4/10">
             <Image src={Image01} />
             <Heading01 text="What our clients say about us" classname="py-7" />

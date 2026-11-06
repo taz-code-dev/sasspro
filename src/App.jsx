@@ -9,6 +9,8 @@ import Workingpart from './layouts/Workingpart'
 import Pricingpart from './layouts/Pricingpart'
 import ClientaPart from './layouts/ClientaPart'
 import Updatepart from './layouts/Updatepart'
+import Newspart from './layouts/Newspart'
+import Footerpart from './layouts/Footerpart'
 
 
 
@@ -26,6 +28,8 @@ const App = () => {
        <Pricingpart/>
        <ClientaPart/>
        <Updatepart/>
+       <Newspart/>
+       <Footerpart/>
     </>
   )
 }
